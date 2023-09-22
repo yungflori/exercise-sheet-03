@@ -1,7 +1,6 @@
 package de.unistuttgart.iste.sqa.pse.sheet03.presence;
 
 import de.hamstersimulator.objectsfirst.inspector.InspectableSimpleHamsterGame;
-import javafx.application.Platform;
 
 /**
  * This class is used to prepare and run a game.
@@ -21,7 +20,6 @@ public abstract class InternalExerciseHamsterGame extends InspectableSimpleHamst
 	protected void run() {
 		game.startGame();
 		hamsterRun();
-		challenge3();
 		game.stopGame();
 	}
 
@@ -30,14 +28,4 @@ public abstract class InternalExerciseHamsterGame extends InspectableSimpleHamst
 	 */
 	abstract void hamsterRun();
 
-	/**
-	 * This method runs {@link #printWithJavaFX()} on the JavaFX thread.
-	 */
-	public void challenge3() {
-		Platform.runLater(() -> {
-			printWithJavaFX();
-		});
-	}
-
-	abstract void printWithJavaFX();
 }

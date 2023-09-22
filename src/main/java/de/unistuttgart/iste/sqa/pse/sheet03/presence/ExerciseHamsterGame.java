@@ -21,10 +21,4 @@ public final class ExerciseHamsterGame extends InternalExerciseHamsterGame {
 		// TODO: Implement me!
 
 	}
-
-	/**
-	 * Put the code for challenge 3 here. It is run on the JavaFX thread.
-	 * You may ignore this method if you do not want to work on challenge 3.
-	 */
-	void printWithJavaFX() {}
 }
