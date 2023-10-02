@@ -14,6 +14,6 @@ public class TwoHamstersHamsterGame extends InternalTwoHamstersHamsterGame {
 		controller.pickAllGrains(paula);
 		controller.putAllGrains(paule);
 
-		// TODO implement Exercise TODO here
+		// TODO implement Exercise 2 (b) here
 	}
 }
