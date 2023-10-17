@@ -2,7 +2,16 @@ package de.unistuttgart.iste.sqa.pse.sheet03.homework;
 
 import de.hamstersimulator.objectsfirst.external.model.Hamster;
 
-// TODO replace this comment with JavaDoc
+/**
+ * 
+ * A control unit to control hamsters.
+ * 
+ * A HamsterController knows some behavioural patterns for hamsters and makes
+ * given hamsters act according to those patterns.
+ * 
+ * @author Sarah Stieß
+ * 
+ */
 public class HamsterController {
 
 	/*@
