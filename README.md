@@ -15,6 +15,6 @@ as well as why proper documentation of code is important.
   ```
   and
   ```sh
-  mvn clean compile exec:java@HomeworkHamsterGameApp
+  mvn clean compile exec:java@TwoHamstersHamsterGameApp
   ```
   

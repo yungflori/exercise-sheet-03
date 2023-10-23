@@ -45,12 +45,12 @@
 						</configuration>
 					</execution>
 					<execution>
-						<id>HomeworkHamsterGameApp</id>
+						<id>TwoHamstersHamsterGameApp</id>
 						<goals>
 							<goal>java</goal>
 						</goals>
 						<configuration>
-							<mainClass>de.unistuttgart.iste.sqa.pse.sheet03.homework.HomeworkHamsterGameApp</mainClass>
+							<mainClass>de.unistuttgart.iste.sqa.pse.sheet03.homework.TwoHamstersHamsterGameApp</mainClass>
 						</configuration>
 					</execution>
 				</executions>
