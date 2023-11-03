@@ -27,5 +27,4 @@ public abstract class InternalExerciseHamsterGame extends InspectableSimpleHamst
 	 * This method contains everything that the hamster is supposed to do.
 	 */
 	abstract void hamsterRun();
-
 }

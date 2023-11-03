@@ -13,14 +13,14 @@ public abstract class InternalTwoHamstersHamsterGame extends InspectableSimpleHa
 
 	Hamster paula;
 	HamsterController controller;
-	
+
 	/**
 	 * This constructor is used for loading a territory for the game and for displaying it.
 	 */
 	InternalTwoHamstersHamsterGame() {
 		this.loadTerritoryFromResourceFile("/territories/territory_twoHamsters.ter");
 		this.displayInNewGameWindow();
-		
+
 		game.startGame();
 		paula = new Hamster(game.getTerritory(), Location.from(1, 5), Direction.SOUTH, 0);
 		controller = new HamsterController();

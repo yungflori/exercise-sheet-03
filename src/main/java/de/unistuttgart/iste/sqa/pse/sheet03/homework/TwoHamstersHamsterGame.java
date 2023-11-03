@@ -2,7 +2,7 @@ package de.unistuttgart.iste.sqa.pse.sheet03.homework;
 
 /**
  * Describe the class TwoHamstersHamsterGame here.
- * 
+ *
  * @author (Your name)
  * @version (a version number or a date)
  */
