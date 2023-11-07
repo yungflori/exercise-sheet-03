@@ -54,7 +54,11 @@ public class HamsterController {
 		hamster.write(String.format("I had %d grains in my mouth. I put all of them on my Tile!", counter));
 	}
 
-	// TODO replace this comment with JavaDoc
+	/**
+	 * makes hamster move in a half circle
+	 *
+	 * @param hamster The hamster that performs a half circle
+	 */
 	void helper0(Hamster hamster) {
 		hamster.write("Executing helper0:");
 		hamster.turnLeft();
@@ -63,7 +67,11 @@ public class HamsterController {
 		hamster.write("I ran a half circle!");
 	}
 
-	// TODO replace this comment with JavaDoc
+	/**
+	 * makes hamster ...
+	 *
+	 * @param hamster The hamster that ...
+	 */
 	void helper1(Hamster hamster) {
 		hamster.write("Executing helper1:");
 		while (hamster.frontIsClear()) {
