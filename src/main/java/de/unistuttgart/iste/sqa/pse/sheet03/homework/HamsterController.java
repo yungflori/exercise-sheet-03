@@ -1,4 +1,5 @@
 //hi luis
+//heute ist es hoffentlich sonnig
 package de.unistuttgart.iste.sqa.pse.sheet03.homework;
 
 import de.hamstersimulator.objectsfirst.external.model.Hamster;
