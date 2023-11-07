@@ -38,9 +38,9 @@ public class HamsterController {
 	@ ensures hamster.mouthEmpty();
 	@*/
 	/**
-	 * Pick all grains on the hamster's tile.
+	 * Put all of the hamster's grain on the current tile.
 	 *
-	 * @param hamster The hamster that picks the grains.
+	 * @param hamster The hamster that puts the grains.
 	 */
 	void putAllGrains(Hamster hamster) {
 		hamster.write("Executing putAllGrains:");
