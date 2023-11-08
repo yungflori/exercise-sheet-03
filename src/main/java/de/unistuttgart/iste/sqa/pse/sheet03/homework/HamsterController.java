@@ -72,8 +72,8 @@ public class HamsterController {
 	 *
 	 * @param hamster The hamster that moves and picks grains
 	 */
-	void pickAllGrainsMoving(Hamster hamster) {
-		hamster.write("Executing pickAllGrainsMoving:");
+	void pickGrainsMoving(Hamster hamster) {
+		hamster.write("Executing pickGrainsMoving:");
 		while (hamster.frontIsClear()) {
 			pickAllGrains(hamster);
 			hamster.move();
@@ -81,24 +81,34 @@ public class HamsterController {
 		hamster.write("I picked all grains, on the tile behind me!");
 	}
 
-	// TODO replace this comment with JavaDoc
-
-
-	void helper2(Hamster hamster, Integer turns) {
-		hamster.write("Executing helper3:");
+	/**
+	 * makes the hamster execute a series of left turns
+	 * and prints a String
+	 *
+	 * @param hamster The hamster to perform turns with
+	 * @param turns   The number of left turns to perform
+	 */
+	void turnCounter(Hamster hamster, Integer turns) {
+		hamster.write("Executing turnCounter:");
 		for (Integer i = 0; i < turns; i++) {
 			hamster.turnLeft();
 		}
 		hamster.write(String.format("I turned %d times!", turns));
 	}
 
-	// TODO replace this comment with JavaDoc
-	void helper3(Hamster hamster, Integer steps) {
-		hamster.write("Executing helper4:");
+
+	/**
+	 * makes the hamster move forward in steps as long as the front is clear
+	 * and produces a string
+	 *
+	 * @param hamster The hamster to perform steps with
+	 * @param steps   The number of forward steps to perform
+	 */
+	void stepCounter(Hamster hamster, Integer steps) {
+		hamster.write("Executing stepCounter:");
 		Integer counter = 0;
 		for (; counter < steps && hamster.frontIsClear(); counter++) {
 			hamster.move();
 		}
 		hamster.write(String.format("I moved %d out of %d steps!", counter, steps));
 	}
-}
