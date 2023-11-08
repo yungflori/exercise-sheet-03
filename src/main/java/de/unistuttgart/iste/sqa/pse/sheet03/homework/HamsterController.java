@@ -60,7 +60,7 @@ public class HamsterController {
 	 * @param hamster The hamster that performs a half circle
 	 */
 	void performHalfCircle(Hamster hamster) {
-		hamster.write("Executing helper0:");
+		hamster.write("Executing performHalfCircle:");
 		hamster.turnLeft();
 		hamster.move();
 		hamster.turnLeft();
@@ -70,10 +70,10 @@ public class HamsterController {
 	/**
 	 * makes the hamster pick all the grains in front of it while moving as long as front is clear
 	 *
-	 * @param hamster ....
+	 * @param hamster The hamster that moves and picks grains
 	 */
-	void pickAllGrains(Hamster hamster) {
-		hamster.write("Executing helper1:");
+	void pickAllGrainsMoving(Hamster hamster) {
+		hamster.write("Executing pickAllGrainsMoving:");
 		while (hamster.frontIsClear()) {
 			pickAllGrains(hamster);
 			hamster.move();
