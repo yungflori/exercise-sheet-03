@@ -1,3 +1,8 @@
+/**
+ * Amores Valderas, Luis Miguel
+ * Schneyinck, Floris
+ * PSE Gruppe 17
+ */
 //hi luis
 //heute ist es hoffentlich sonnig
 package de.unistuttgart.iste.sqa.pse.sheet03.homework;
@@ -68,7 +73,8 @@ public class HamsterController {
 	}
 
 	/**
-	 * makes the hamster pick all the grains in front of it while moving as long as front is clear
+	 * makes the hamster pick all the grains in front of it while
+	 * moving as long as front is clear
 	 *
 	 * @param hamster The hamster that moves and picks grains
 	 */
@@ -99,7 +105,7 @@ public class HamsterController {
 
 	/**
 	 * makes the hamster move forward in steps as long as the front is clear
-	 * and produces a string
+	 * and produces a string with how many steps was able to produce
 	 *
 	 * @param hamster The hamster to perform steps with
 	 * @param steps   The number of forward steps to perform
@@ -111,4 +117,5 @@ public class HamsterController {
 			hamster.move();
 		}
 		hamster.write(String.format("I moved %d out of %d steps!", counter, steps));
+	}
 	}
