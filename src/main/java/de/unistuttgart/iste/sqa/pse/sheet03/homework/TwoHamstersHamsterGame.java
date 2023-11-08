@@ -3,8 +3,8 @@ package de.unistuttgart.iste.sqa.pse.sheet03.homework;
 /**
  * Describe the class TwoHamstersHamsterGame here.
  *
- * @author (Your name)
- * @version (a version number or a date)
+ * @author (Amores, Schneyinck)
+ * @version (08.11.2023)
  */
 public class TwoHamstersHamsterGame extends InternalTwoHamstersHamsterGame {
 
