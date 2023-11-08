@@ -59,7 +59,7 @@ public class HamsterController {
 	 *
 	 * @param hamster The hamster that performs a half circle
 	 */
-	void helper0(Hamster hamster) {
+	void performHalfCircle(Hamster hamster) {
 		hamster.write("Executing helper0:");
 		hamster.turnLeft();
 		hamster.move();
@@ -68,11 +68,11 @@ public class HamsterController {
 	}
 
 	/**
-	 * makes hamster ...
+	 * makes the hamster pick all the grains in front of it while moving as long as front is clear
 	 *
-	 * @param hamster The hamster that ...
+	 * @param hamster ....
 	 */
-	void helper1(Hamster hamster) {
+	void pickAllGrains(Hamster hamster) {
 		hamster.write("Executing helper1:");
 		while (hamster.frontIsClear()) {
 			pickAllGrains(hamster);
@@ -82,6 +82,8 @@ public class HamsterController {
 	}
 
 	// TODO replace this comment with JavaDoc
+
+
 	void helper2(Hamster hamster, Integer turns) {
 		hamster.write("Executing helper3:");
 		for (Integer i = 0; i < turns; i++) {
