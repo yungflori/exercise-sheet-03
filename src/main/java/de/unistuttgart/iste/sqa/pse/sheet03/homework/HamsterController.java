@@ -104,8 +104,8 @@ public class HamsterController {
 
 
 	/**
-	 * makes the hamster move forward in steps as long as the front is clear
-	 * and produces a string with how many steps was able to produce
+	 * makes the hamster move forward long when possible and produces
+	 * a string with how many of the steps was able to produce
 	 *
 	 * @param hamster The hamster to perform steps with
 	 * @param steps   The number of forward steps to perform
