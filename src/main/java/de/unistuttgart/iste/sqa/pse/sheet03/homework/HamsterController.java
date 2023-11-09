@@ -59,6 +59,9 @@ public class HamsterController {
 		hamster.write(String.format("I had %d grains in my mouth. I put all of them on my Tile!", counter));
 	}
 
+	/*@
+	@ requires hamster !=null;
+	@*/
 	/**
 	 * makes hamster move in a half circle
 	 *
@@ -72,6 +75,10 @@ public class HamsterController {
 		hamster.write("I ran a half circle!");
 	}
 
+	/*@
+	@ requires hamster !=null & hamster.frontIsClear();
+	@
+	@*/
 	/**
 	 * makes the hamster pick all the grains in front of it while
 	 * moving as long as front is clear
@@ -87,6 +94,10 @@ public class HamsterController {
 		hamster.write("I picked all grains, on the tile behind me!");
 	}
 
+	/*@
+	@ requires hamster !=null & turns is Typ Integer;
+	@ ensures hamster looks to the chosen direction
+	@*/
 	/**
 	 * makes the hamster execute a series of left turns
 	 * and prints a String
@@ -102,7 +113,10 @@ public class HamsterController {
 		hamster.write(String.format("I turned %d times!", turns));
 	}
 
-
+	/*@
+	@ requires hamster !=null & steps is Typ Integer();
+	@ ensures steps < counter
+	@*/
 	/**
 	 * makes the hamster move forward long when possible and produces
 	 * a string with how many of the steps was able to produce
