@@ -16,7 +16,7 @@ import de.hamstersimulator.objectsfirst.external.model.Hamster;
  * A HamsterController knows some behavioural patterns for hamsters and makes
  * given hamsters act according to those patterns.
  *
- * @author Sarah Stieß
+ * @author (Amores, Schneyinck)
  *
  */
 public class HamsterController {
